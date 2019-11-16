@@ -1,0 +1,5 @@
+a = str(input("word: "))
+b = a [::-1]
+words = b.split()
+sentence_rev = ' '.join(reversed(words))
+print(sentence_rev)
