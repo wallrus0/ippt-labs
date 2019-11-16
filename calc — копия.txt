@@ -1,0 +1,22 @@
+print("1.Калькулятор \n "'2.Вихід \n ')
+a = int(input(": "))
+if a == 1:
+
+    a = float(input("1 число: "))
+    b = float(input("2 число: "))
+    operation = input('операція: ')
+    result = None
+    if operation == "+":
+        result = a + b
+    elif operation == '-':
+        result = a - b
+    elif operation == '*':
+        result = a * b
+    elif (operation == "/") and (b != 0):
+        result = a / b
+    else:
+        print("error 101")
+    print("result: ", result)
+
+    if a == 2:
+        exit()
